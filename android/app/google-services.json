@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "294244985773",
+    "project_id": "studycrafters-9d6bb",
+    "storage_bucket": "studycrafters-9d6bb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294244985773:android:3c5821e1cc54657d3bcf24",
+        "android_client_info": {
+          "package_name": "com.StudyCrafters.EduTrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvRu1VCpVKvrtbn9S91x958rzbsODCPHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

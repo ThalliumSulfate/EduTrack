@@ -1,4 +1,4 @@
-package com.edutrack
+package com.StudyCrafters.EduTrack
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

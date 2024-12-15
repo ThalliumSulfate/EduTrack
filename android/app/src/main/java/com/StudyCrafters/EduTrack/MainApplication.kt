@@ -1,4 +1,4 @@
-package com.edutrack
+package com.StudyCrafters.EduTrack
 
 import android.app.Application
 import com.facebook.react.PackageList
