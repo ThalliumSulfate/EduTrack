@@ -124,6 +124,7 @@ function Home({ route }) {
 
   };
 
+
   // loading events regarding to each user and email in database 
   const loadEvents = () => {
     const user = auth().currentUser;
@@ -133,11 +134,10 @@ function Home({ route }) {
 
     const userEmail = user.email.toLowerCase();
     firestore()
-
       .collection('users')
       .doc(userEmail)
       .collection('events')
-      .orderBy('createdAt', 'asc')
+      .orderBy('startDate', 'asc')
       .get()
 
       .then(querySnapshot => {
@@ -145,7 +145,7 @@ function Home({ route }) {
         querySnapshot.forEach(doc => {
           eventsList.push({ id: doc.id, ...doc.data() });
         });
-        setAllEvents(eventsList);
+        setAllEvents(eventsList.sort());
 
       })
 
